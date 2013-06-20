@@ -1,9 +1,15 @@
 Google doc for Section 1: Functional testing:
 https://docs.google.com/document/d/1xIsz4foT0GKegalfEzh8RtT48E8tzXpZjRCk486K3hs/edit?usp=sharing
 
+Tools that I'm using (Kamil):
+- Log mining: Splunk
+- Profiling: VisualVM (tutorials: https://blogs.oracle.com/nbprofiler/entry/profiling_with_visualvm_part_1 https://blogs.oracle.com/nbprofiler/entry/profiling_with_visualvm_part_2 ) with plugins: VisualGC
+
 Points:
 executive summary 10
 functional testing 10
 analysis and optimisation 30
 performance and load testing 25
 modeling 25
+
+
