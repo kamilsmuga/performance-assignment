@@ -1,0 +1,63 @@
+2013-06-17 23:55:26,561 ERROR [STDERR] (Attach Listener) 	... 15 more
+2013-06-17 23:55:26,561 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.checkMBeanServerBuilder(MBeanServerFactory.java:487)
+2013-06-17 23:55:26,561 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.loadBuilderClass(MBeanServerFactory.java:445)
+2013-06-17 23:55:26,560 ERROR [STDERR] (Attach Listener) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+2013-06-17 23:55:26,560 ERROR [STDERR] (Attach Listener) 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+2013-06-17 23:55:26,560 ERROR [STDERR] (Attach Listener) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+2013-06-17 23:55:26,560 ERROR [STDERR] (Attach Listener) 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+2013-06-17 23:55:26,560 ERROR [STDERR] (Attach Listener) 	at java.security.AccessController.doPrivileged(Native Method)
+2013-06-17 23:55:26,560 ERROR [STDERR] (Attach Listener) 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+2013-06-17 23:55:26,560 ERROR [STDERR] (Attach Listener) 	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+2013-06-17 23:55:26,560 ERROR [STDERR] (Attach Listener) Caused by: java.lang.ClassNotFoundException: org.jboss.mx.server.MBeanServerBuilderImpl
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	... 7 more
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at sun.management.Agent.startAgent(Agent.java:247)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at sun.management.Agent.startLocalManagementAgent(Agent.java:134)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at sun.management.jmxremote.ConnectorBootstrap.startLocalConnectorServer(ConnectorBootstrap.java:519)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at java.lang.management.ManagementFactory.getPlatformMBeanServer(ManagementFactory.java:466)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.createMBeanServer(MBeanServerFactory.java:191)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.createMBeanServer(MBeanServerFactory.java:230)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.newMBeanServer(MBeanServerFactory.java:315)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.getNewMBeanServerBuilder(MBeanServerFactory.java:538)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.checkMBeanServerBuilder(MBeanServerFactory.java:502)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) Caused by: javax.management.JMRuntimeException: Failed to load MBeanServerBuilder class org.jboss.mx.server.MBeanServerBuilderImpl: java.lang.ClassNotFoundException: org.jboss.mx.server.MBeanServerBuilderImpl
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	... 6 more
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at sun.management.Agent.agentmain(Agent.java:124)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at sun.management.Agent.startAgent(Agent.java:253)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at sun.management.Agent.error(Agent.java:439)
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) Caused by: java.lang.RuntimeException: javax.management.JMRuntimeException: Failed to load MBeanServerBuilder class org.jboss.mx.server.MBeanServerBuilderImpl: java.lang.ClassNotFoundException: org.jboss.mx.server.MBeanServerBuilderImpl
+2013-06-17 23:55:26,559 ERROR [STDERR] (Attach Listener) 	at sun.instrument.InstrumentationImpl.loadClassAndCallAgentmain(InstrumentationImpl.java:407)
+2013-06-17 23:55:26,558 ERROR [STDERR] (Attach Listener) 	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:384)
+2013-06-17 23:55:26,558 ERROR [STDERR] (Attach Listener) 	at java.lang.reflect.Method.invoke(Method.java:601)
+2013-06-17 23:55:26,558 ERROR [STDERR] (Attach Listener) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2013-06-17 23:55:26,558 ERROR [STDERR] (Attach Listener) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2013-06-17 23:55:26,558 ERROR [STDERR] (Attach Listener) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2013-06-17 23:55:26,558 ERROR [STDERR] (Attach Listener) java.lang.reflect.InvocationTargetException
+2013-06-17 23:55:26,557 ERROR [STDERR] (Attach Listener) Exception thrown by the agent : javax.management.JMRuntimeException: Failed to load MBeanServerBuilder class org.jboss.mx.server.MBeanServerBuilderImpl: java.lang.ClassNotFoundException: org.jboss.mx.server.MBeanServerBuilderImpl
+2013-06-17 23:55:26,555 ERROR [STDERR] (Attach Listener) 	... 15 more
+2013-06-17 23:55:26,555 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.checkMBeanServerBuilder(MBeanServerFactory.java:487)
+2013-06-17 23:55:26,555 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.loadBuilderClass(MBeanServerFactory.java:445)
+2013-06-17 23:55:26,555 ERROR [STDERR] (Attach Listener) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+2013-06-17 23:55:26,555 ERROR [STDERR] (Attach Listener) 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+2013-06-17 23:55:26,554 ERROR [STDERR] (Attach Listener) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+2013-06-17 23:55:26,554 ERROR [STDERR] (Attach Listener) 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+2013-06-17 23:55:26,554 ERROR [STDERR] (Attach Listener) 	at java.security.AccessController.doPrivileged(Native Method)
+2013-06-17 23:55:26,554 ERROR [STDERR] (Attach Listener) 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+2013-06-17 23:55:26,554 ERROR [STDERR] (Attach Listener) 	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+2013-06-17 23:55:26,553 ERROR [STDERR] (Attach Listener) Caused by: java.lang.ClassNotFoundException: org.jboss.mx.server.MBeanServerBuilderImpl
+2013-06-17 23:55:26,553 ERROR [STDERR] (Attach Listener) 	at sun.instrument.InstrumentationImpl.loadClassAndCallAgentmain(InstrumentationImpl.java:407)
+2013-06-17 23:55:26,553 ERROR [STDERR] (Attach Listener) 	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:384)
+2013-06-17 23:55:26,553 ERROR [STDERR] (Attach Listener) 	at java.lang.reflect.Method.invoke(Method.java:601)
+2013-06-17 23:55:26,553 ERROR [STDERR] (Attach Listener) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2013-06-17 23:55:26,553 ERROR [STDERR] (Attach Listener) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2013-06-17 23:55:26,553 ERROR [STDERR] (Attach Listener) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2013-06-17 23:55:26,552 ERROR [STDERR] (Attach Listener) 	at sun.management.Agent.agentmain(Agent.java:124)
+2013-06-17 23:55:26,552 ERROR [STDERR] (Attach Listener) 	at sun.management.Agent.startAgent(Agent.java:247)
+2013-06-17 23:55:26,552 ERROR [STDERR] (Attach Listener) 	at sun.management.Agent.startLocalManagementAgent(Agent.java:134)
+2013-06-17 23:55:26,552 ERROR [STDERR] (Attach Listener) 	at sun.management.jmxremote.ConnectorBootstrap.startLocalConnectorServer(ConnectorBootstrap.java:519)
+2013-06-17 23:55:26,552 ERROR [STDERR] (Attach Listener) 	at java.lang.management.ManagementFactory.getPlatformMBeanServer(ManagementFactory.java:466)
+2013-06-17 23:55:26,552 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.createMBeanServer(MBeanServerFactory.java:191)
+2013-06-17 23:55:26,552 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.createMBeanServer(MBeanServerFactory.java:230)
+2013-06-17 23:55:26,551 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.newMBeanServer(MBeanServerFactory.java:315)
+2013-06-17 23:55:26,551 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.getNewMBeanServerBuilder(MBeanServerFactory.java:538)
+2013-06-17 23:55:26,551 ERROR [STDERR] (Attach Listener) 	at javax.management.MBeanServerFactory.checkMBeanServerBuilder(MBeanServerFactory.java:502)
+2013-06-17 23:55:26,551 ERROR [STDERR] (Attach Listener) javax.management.JMRuntimeException: Failed to load MBeanServerBuilder class org.jboss.mx.server.MBeanServerBuilderImpl: java.lang.ClassNotFoundException: org.jboss.mx.server.MBeanServerBuilderImpl
