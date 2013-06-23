@@ -1,9 +1,12 @@
 Google doc for Section 1: Functional testing:
+Part 1:
 https://docs.google.com/document/d/1xIsz4foT0GKegalfEzh8RtT48E8tzXpZjRCk486K3hs/edit?usp=sharing
-
+Part 2:
+https://docs.google.com/document/d/1iPUA_O-qLiuYE-jUGC4lpHxCCdRZa7vFVUxN0WMwkw4/edit#
 Tools that I'm using (Kamil):
 - Log mining: Splunk
-- Profiling: VisualVM (tutorials: https://blogs.oracle.com/nbprofiler/entry/profiling_with_visualvm_part_1 https://blogs.oracle.com/nbprofiler/entry/profiling_with_visualvm_part_2 ) with plugins: VisualGC
+- JVM Profiling: VisualVM (tutorials: https://blogs.oracle.com/nbprofiler/entry/profiling_with_visualvm_part_1 https://blogs.oracle.com/nbprofiler/entry/profiling_with_visualvm_part_2 ) with plugins: VisualGC
+- Linux monitoring: Cacti (graphs: CPU, Memory, Processes, Load average, Network in/out)
 
 Points:
 executive summary 10
