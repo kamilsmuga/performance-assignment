@@ -9,7 +9,7 @@ What's currently ongoing:
 
 Next steps to be done:
 - Test suite 2: 
-a) Head dump analysis to spot potential memory leaks. 
+a) Head dump analysis to spot potential memory leaks. (currently all heap dumps are on my HDD - they're quite big - 800-900MB per test case. will have to figure out how to share them)
 At the moment, I've gathered heap dumps but Memory profiler in visualVM can be very helpful - if we won't spot any memory leaks with heapdumps it may be worth to reexecute tests and use memory profiler (specifically, I'm talking about metric: surviving generations https://blogs.oracle.com/nbprofiler/entry/what_do_the_surviving_generations)
 Tutorials for finding memory leaks: 
 http://rejeev.blogspot.ie/2009/04/analyzing-memory-leak-in-java.html
