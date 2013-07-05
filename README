@@ -1,12 +1,22 @@
 STATUS
 
+Configs excluded from further testing due to memory leaks or exceptions:
+- config1 - memory leak
+- config2 - memory leak
+- config4 - runtimeexception
+- config7 - memory leak
+- config9 - runtimeexception
+
+
+
 What's already done:
 - Test suite 1: Steady state - monitoring jboss behavior with (and without) adaptive cells deployed. This is to get to know types of exceptions that are occuring before running config1..10.  
 - Test suite 2: Proper functional testing. Executed config1..10 and gathered heap dumps and gc logs after each execution. 
 - Test suite 2: Analysing logs with Splunk (log mining tool) to identify exceptions while running config1..10. 
+- Test suite 2: Heap dump analysis 
 
 What's currently ongoing:
-Heap dump analysis
+Load testing
 
 Next steps to be done:
 - Test suite 2: 
