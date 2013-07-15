@@ -1,0 +1,3 @@
+sampler_label,aggregate_report_count,average,aggregate_report_min,aggregate_report_max,aggregate_report_stddev,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth,average_bytes
+conf8:conf8,67929,175,4,1796,225.52865488190656,0.0,226.45943972716452,73.53226427248042,332.4967981274566
+TOTAL,67929,175,4,1796,225.52865488190656,0.0,226.45943972716452,73.53226427248042,332.4967981274566
