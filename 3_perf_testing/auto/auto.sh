@@ -2,7 +2,7 @@
 
 JBOSS_DIR=/home/comp40010/jboss-5.0.1.GA/
 JMETER_DIR=/home/comp40010/apache-jmeter-2.9_client/bin/
-TEST_PLANS=/home/comp40010/performance-assignment/3_perf_testing/auto/test_plans/test
+TEST_PLANS=/home/comp40010/performance-assignment/3_perf_testing/auto/test_plans/conf3_part
 MASTER='jmeter-master'
 
 # start jboss
@@ -98,6 +98,8 @@ function generate_jmeter_graphs () {
 
 	echo "Copying generated graphs $1.png to $2"
 	scp ks@$MASTER:$OUT/*.png $2
+	scp ks@$MASTER:$OUT/*.csv $2
+	OUT=$2
 }
 
 # main loop function
@@ -135,6 +137,5 @@ function test () {
 	done
 }
 
-test
-#main
+main
 # TODO: get jmeter-server logs
