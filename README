@@ -7,31 +7,6 @@ Configs excluded from further testing due to memory leaks or exceptions:
 - config7 - memory leak
 - config9 - runtimeexception
 
-
-
-What's already done:
-- Test suite 1: Steady state - monitoring jboss behavior with (and without) adaptive cells deployed. This is to get to know types of exceptions that are occuring before running config1..10.  
-- Test suite 2: Proper functional testing. Executed config1..10 and gathered heap dumps and gc logs after each execution. 
-- Test suite 2: Analysing logs with Splunk (log mining tool) to identify exceptions while running config1..10. 
-- Test suite 2: Heap dump analysis 
-
-What's currently ongoing:
-Load testing
-
-Next steps to be done:
-- Test suite 2: 
-a) Head dump analysis to spot potential memory leaks. (currently all heap dumps are on my HDD - they're quite big - 800-900MB per test case. will have to figure out how to share them)
-At the moment, I've gathered heap dumps but Memory profiler in visualVM can be very helpful - if we won't spot any memory leaks with heapdumps it may be worth to reexecute tests and use memory profiler (specifically, I'm talking about metric: surviving generations https://blogs.oracle.com/nbprofiler/entry/what_do_the_surviving_generations)
-Tutorials for finding memory leaks: 
-http://rejeev.blogspot.ie/2009/04/analyzing-memory-leak-in-java.html
-http://www.captaincasa.com/pdf/techdoc_memprofiling.pdf
-https://netbeans.org/kb/articles/nb-profiler-uncoveringleaks_pt1.html (this is for Netbeans profiler, but visualVM is using the same engine for profiling)
-b) GC basic analysis.
-- Test suite 3:
-a) Prepare to load testing. Gather information how to configure jmeter to test adaptivecells. Write load tests.
-Tutorials for load testing approach:
-http://community.blazemeter.com/knowledgebase/articles/34731-adaptive-load-scenario-how-to-identify-performan
-
 DOCS
 
 Google doc for Section 1: Functional testing:
@@ -42,6 +17,9 @@ https://docs.google.com/document/d/1iPUA_O-qLiuYE-jUGC4lpHxCCdRZa7vFVUxN0WMwkw4/
 
 Section 2: Load testing:
 https://docs.google.com/document/d/12iEVL-9ELQwP5H-wTjTmHZ99btToB3H2NZjpWIdY8GQ/edit#heading=h.4w50c8tu9al5
+
+Section 3: Performance testing
+Config 3: https://docs.google.com/document/d/1wAUO_ppOKtMHZ6sn-Psz9UwInMpCCBPKsTgKVz0GIZ0/edit
 
 TOOLS
 
