@@ -15,3 +15,6 @@ do
    cp $1_1000U_2R_100L_peak.jmx $1_${i}U_2R_100L_peak.jmx 
    refactor_peak $1 $i  
 done
+
+# perl one liner for infinite loop:
+# perl -pi -e 's/\<stringProp name=\"LoopController.loops\"\>\$\{loop\}\<\/stringProp\>/\<intProp name=\"LoopController.loops\"\>-1\<\/intProp\>/g' test_plans/conf*/*.jmx
