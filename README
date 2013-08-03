@@ -9,6 +9,9 @@ Configs excluded from further testing due to memory leaks or exceptions:
 
 DOCS
 
+Testing environment:
+https://docs.google.com/document/d/1u-VLEmlyfFTbs7ucokl1H-3wta4wo0oEUrQe0UeY2XA/edit?usp=sharing
+
 Google doc for Section 1: Functional testing:
 Part 1:
 https://docs.google.com/document/d/1xIsz4foT0GKegalfEzh8RtT48E8tzXpZjRCk486K3hs/edit?usp=sharing
@@ -20,6 +23,9 @@ https://docs.google.com/document/d/12iEVL-9ELQwP5H-wTjTmHZ99btToB3H2NZjpWIdY8GQ/
 
 Section 3: Performance testing
 Config 3: https://docs.google.com/document/d/1wAUO_ppOKtMHZ6sn-Psz9UwInMpCCBPKsTgKVz0GIZ0/edit
+Config 5: https://docs.google.com/document/d/19mMRRE7sykM7dxgUv7sWc6t1epVoPfyDy2_PcbLXRBQ/edit?usp=sharing
+
+Architecture: https://docs.google.com/document/d/1u-VLEmlyfFTbs7ucokl1H-3wta4wo0oEUrQe0UeY2XA/edit
 
 TOOLS
 
