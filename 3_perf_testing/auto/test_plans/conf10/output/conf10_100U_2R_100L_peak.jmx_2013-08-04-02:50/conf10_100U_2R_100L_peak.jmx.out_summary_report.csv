@@ -1,0 +1,3 @@
+sampler_label,aggregate_report_count,average,aggregate_report_median,aggregate_report_90%_line,aggregate_report_min,aggregate_report_max,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth,aggregate_report_stddev
+conf10,6621,2009,979,3823,6,20033,0.0,45.628398354317845,14.90234496139056,3344.371810187919
+TOTAL,6621,2009,979,3823,6,20033,0.0,45.628398354317845,14.90234496139056,3344.371810187919
